@@ -1,0 +1,131 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Lexend+Zetta:wght@100..900&family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap')
+</style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Red Hat Display',
+    margin:0;
+    background-color: #E0E8FF;
+    /* min-height: 100vh; */
+    position: relative;
+    min-height:100vh;
+    background-size:contain;
+
+
+}
+.card{
+    /* height: 550px; */
+    max-width: 450px;
+    background-color: white;
+    /* border:4px solid red */
+    border-radius: 15px;
+    /* padding: 2rem; */
+    /* margin: 2px; */
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+    position: absolute;
+    overflow: hidden;
+
+}
+.text-content{
+    padding:7%;
+    text-align:center;
+
+}
+.title{
+    color:#24314D;
+    font-weight: 900;
+    font-size:2rem;
+    margin-bottom:20px;
+}
+.text-content p.subtitle{
+    color:black;
+    margin-bottom: 25px;
+}
+.plan-box{
+    background-color: #F8F9FE;
+    border-radius: 2px;
+    display: flex;
+    padding:25px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 349px;
+
+}
+.plan-box-left div{
+    margin-left: 20px;
+}
+.plan-box-left div h5{
+    font-weight:900;
+    font-size:15px;
+    color:#DFECFE;
+}
+.plan-box-left div p{
+    
+    font-size:15px;
+    color:#DFECFE;
+}
+.plan-box a{
+    font-weight: 900;
+    color: #3528C1;
+}
+a.proceed-btn{
+    display: block;
+    text-decoration:none;
+    color:white;
+    background-color:#382AE1;
+    padding:20px 0;
+    border-radius:12px;
+    margin:30px 0px;
+    transition: background-color .3s ease;
+
+}
+a.cancel-btn{
+    color: hsl(224, 23%, 55%);
+   text-decoration: none;
+    font-weight: 900;
+    transition: color .3s ease;
+}
+a.cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+}
+
+.plan-box-left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+div.plan-box {
+    padding: 12px;
+}
+
+.plan-box-left div {
+    margin-left: 10px;
+}
+.plan-box a:hover {
+    text-decoration: none;
+    color: hsl(245, 75%, 52%);
+}
+.plan-box a{
+    font-weight:900;
+    color:hsl(223, 47%, 23%);
+    transition: color 3s ease;
+}
+
+a.proceed-btn,
+a.cancel-btn,
+.plan-box a {
+    font-size: 13px;
+}
+
+.text-content {
+    padding: 9% 7%;
+}
+
